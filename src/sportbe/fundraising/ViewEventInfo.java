@@ -39,7 +39,7 @@ public class ViewEventInfo extends ViewBaseObject {
 
     protected void setData() throws SQLException {
         event = new Event(rsMain.getInt("Event_ID"),rsMain.getString("Description"),rsMain.getBoolean("Active"));
-        param1 = 16;
+        param1 = 17;
     }
 
     public Event getEvent() {
